@@ -1,23 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask Website</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; background-color: #f4f4f4; }
-        h1 { color: #2c3e50; font-size: 2.5em; }
-        p { color: #7f8c8d; font-size: 1.2em; }
-        .container { max-width: 600px; margin: auto; background: white; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); border-radius: 10px; }
-        .btn { display: inline-block; padding: 10px 20px; margin-top: 20px; font-size: 1em; color: white; background-color: #3498db; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; }
-        .btn:hover { background-color: #2980b9; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gary Tyree">
+    <title>Gary Tyree - Home</title>
+    <meta name="description" content="Bioengineer // Data Engineer // R&D Engineer">
+    <link rel="canonical" href="https://garytyree-portfolio.netlify.app/">
+    <link rel="stylesheet" href="{{ url_for('static', filename='homestyle.css') }}">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Flask Website</h1>
-        <p>Enjoy a simple and elegant web page built with Flask.</p>
-        <a href="#" class="btn">Learn More</a>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="https://garytyree-portfolio.netlify.app/" class="logo">Home</a>
+        <nav class="menu">
+            <ul>
+                <li><a href="https://garytyree-portfolio.netlify.app/about/">About Me</a></li>
+                <li><a href="https://garytyree-portfolio.netlify.app/resume/">Resume</a></li>
+                <li><a href="https://garytyree-portfolio.netlify.app/projects/">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <div class="content">
+        <main>
+            <div>
+                <h1>Gary Tyree</h1>
+                <p>Bioengineer // Data Engineer // R&D Engineer</p>
+                <div>
+                 &nbsp; 
+                <a href="mailto:gatyree1@gmail.com" rel="me noopener" title="Email">
+                    <svg width="32" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1.0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1.0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+                 &nbsp;&nbsp; 
+                <a href="https://github.com/Gartholomewt/" rel="me noopener" title="Github">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"></path>
+                    </svg>
+                </a>
+                 &nbsp;&nbsp; 
+                <a href="https://www.linkedin.com/in/gary-tyree-03806491/" rel="me noopener" title="Linkedin">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                 &nbsp;&nbsp;</div>
+            </div>
+        </main>
     </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <span>© 2025</span>
+        <span>
+            <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+        </span>
+    </footer>
+
 </body>
 </html>
