@@ -15,4 +15,12 @@ def home():
 
 @views.route("/Resume")
 def resume():
-    return render_template("index2.html")
+    return render_template("resume.html")
+
+@views.route("/About")
+def about():
+    return render_template("about.html")
+
+@views.route("/Projects")
+def projects():
+    return render_template("projects.html")
