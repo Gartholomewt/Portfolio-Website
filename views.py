@@ -21,6 +21,6 @@ def resume():
 def about():
     return render_template("about.html")
 
-@views.route("/Projects")
+@views.route("/Projects/")
 def projects():
     return render_template("projects.html")
