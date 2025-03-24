@@ -13,7 +13,7 @@
     <meta itemprop="name" content="Gary Tyree">
     <meta itemprop="description" content="Homepage and portfolio by Gary Tyree">
     <meta itemprop="datePublished" content="2025-02-12T00:00:00+00:00">
-    <meta itemprop="dateModified" content="2025-02-12T23:56:36+01:00">
+    <meta itemprop="dateModified" content="2025-03-23T23:56:36+01:00">
     <link rel="canonical" href="https://gartholomewt.pythonanywhere.com/">
     <link rel="stylesheet" href="{{ url_for('static', filename='homestyle.css') }}">
 </head>
@@ -25,7 +25,7 @@
         <nav class="menu">
             <ul>
                 <li><a href="https://gartholomewt.pythonanywhere.com/About">About Me</a></li>
-                <li><a href="https://gartholomewt.pythonanywhere.com/Resume/">Resume</a></li>
+                <li><a href="{{ url_for('static', filename='website-resume.pdf') }}" target="_blank">Resume</a></li>
                 <li><a href="https://gartholomewt.pythonanywhere.com/Projects/">Projects</a></li>
             </ul>
         </nav>

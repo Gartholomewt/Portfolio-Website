@@ -25,7 +25,7 @@
         <nav class="menu">
             <ul>
                 <li><a href="https://gartholomewt.pythonanywhere.com/About">About Me</a></li>
-                <li><a href="https://gartholomewt.pythonanywhere.com/Resume/">Resume</a></li>
+                <li><a href="{{ url_for('static', filename='website-resume.pdf') }}" target="_blank">Resume</a></li>
                 <li><a href="https://gartholomewt.pythonanywhere.com/Projects/">Projects</a></li>
             </ul>
         </nav>

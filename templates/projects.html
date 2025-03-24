@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Gary Tyree">
-    <title>Gary Tyree - Resume</title>
+    <title>Gary Tyree - About Me</title>
     <meta name="description" content="Bioengineer // Data Engineer // R&D Engineer">
     <meta name="keywords" content="resume,portfolio,science,informatics,development,programming,bioengineer,data,projects,cloud,software">
     <link rel="apple-touch-icon" sizes="180x180" href="https://www.djordjeatlialp.de/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://gartholomewt.pythonanywhere.com/icon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://gartholomewt.pythonanywhere.com/icon-16x16.png">
     <meta itemprop="name" content="Gary Tyree">
-    <meta itemprop="description" content="Resume by Gary Tyree">
+    <meta itemprop="description" content="About Me by Gary Tyree">
     <meta itemprop="datePublished" content="2025-02-12T00:00:00+00:00">
-    <meta itemprop="dateModified" content="2025-02-12T23:56:36+01:00">
+    <meta itemprop="dateModified" content="2025-03-23T23:56:36+01:00">
     <link rel="canonical" href="https://gartholomewt.pythonanywhere.com/">
-    <link rel="stylesheet" href="{{ url_for('static', filename='homestyle.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='aboutstyle.css') }}">
 </head>
 <body>
 
@@ -25,7 +25,7 @@
         <nav class="menu">
             <ul>
                 <li><a href="https://gartholomewt.pythonanywhere.com/About">About Me</a></li>
-                <li><a href="https://gartholomewt.pythonanywhere.com/Resume/">Resume</a></li>
+                <li><a href="{{ url_for('static', filename='website-resume.pdf') }}" target="_blank">Resume</a></li>
                 <li><a href="https://gartholomewt.pythonanywhere.com/Projects/">Projects</a></li>
             </ul>
         </nav>
@@ -35,8 +35,27 @@
     <div class="content">
         <main>
             <div>
-                <h1>Resume</h1>
-                <p>This is p1 here</p>
+                <h1>Projects</h1>
+                
+                <h2>Project 1</h2>
+                    <div class="content">
+                        <p>How should I display the projects all at once? </p>
+                    </div>
+                    
+                <h2>Project 2</h2>
+                    <div class="content">
+                        <p>Clickable tiles I guess </p>
+                    </div>
+                    
+                <h2>Project 3</h2>
+                    <div class="content">
+                        <p>Kind of ambitious. 3 projects? What are you some kinda Einstein or somethin? </p>
+                    </div>
+                    
+                <h2>Project 4</h2>
+                    <div class="content">
+                        <p>Hey hey hey, let's not get crazy. I'm walkin' here! </p>
+                    </div>
             </div>
         </main>
     </div>
