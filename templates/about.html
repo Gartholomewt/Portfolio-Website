@@ -13,9 +13,8 @@
     <meta itemprop="name" content="Gary Tyree">
     <meta itemprop="description" content="About Me by Gary Tyree">
     <meta itemprop="datePublished" content="2025-02-12T00:00:00+00:00">
-    <meta itemprop="dateModified" content="2025-02-12T23:56:36+01:00">
+    <meta itemprop="dateModified" content="2025-03-23T23:56:36+01:00">
     <link rel="canonical" href="https://gartholomewt.pythonanywhere.com/">
-    <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="My Profile Picture" width="300">
     <link rel="stylesheet" href="{{ url_for('static', filename='aboutstyle.css') }}">
 </head>
 <body>
@@ -37,19 +36,32 @@
         <main>
             <div>
                 <h1>About Me</h1>
-                <p class="spaced-text">
-                Hi, I’m Gary.<br><br>
-                I'm a bioengineer and data engineer passionate about bridging the gap between biology and technology. With a strong background in research and development, I specialize in cell biology, bioinformatics, and data-driven problem-solving. My work has focused on optimizing biological systems through computational and experimental approaches. Outside of work, I enjoy coding, exploring scientific innovations, and refining my skills in software development and computational biology.                
-                <img src="{{url_for('static', filename='Headshot-2025.jpg')}}" align="right" width=20% height=auto/>
+                    <div class="content">
+                        <p>Hi, I’m Gary.<br><br>I'm a bioengineer and data engineer passionate about bridging the gap between biology and technology. With a strong background in research and development, I specialize in cell biology, bioinformatics, and data-driven problem-solving. My work has focused on optimizing biological systems through computational and experimental approaches. I really enjoy coding, exploring scientific innovations, and refining my technical skills with hands-on projects. Outside of work, I enjoy staying active and creating different forms of media.</p>
+                        <img src="{{url_for('static', filename='Headshot-2025.jpg')}}" class="profile-pic" alt="Profile Picture">
+                    </div>
                 
                 <h2>Early Life</h2>
-                <p>I’ve lived most of my life in Tucson, Arizona. I’ve only ever asked for one thing my entire life. Less sun and more rain. That’s it. I’m still holding onto that wish in the relatively cool San Diego. There’s never too much rain in my opinion! <br><br>Growing up in Tucson, I was always surrounded by the unique beauty of the Sonoran Desert. My education led me to develop an early interest in science and technology as my preferred toolset. Tucson instilled in me a love for discovery and problem-solving, but the desert’s harsh landscape made me never take nature for granted. This eventually guided me toward a career in engineering where I could improve human health and other biosystems.</p>
-                
+                    <div class="content">
+                        <p>I’ve lived most of my life in Tucson, Arizona. I’ve only ever asked for one thing in that time. Less sun and more rain. That’s it. I’m still holding onto that wish in the relatively cool San Diego. There’s never too much rain in my opinion! <br><br>Growing up in Tucson, I was always surrounded by the unique beauty of the Sonoran Desert. My education led me to develop an early interest in science and technology as my preferred toolset. Tucson instilled in me a love for discovery and problem-solving, but the desert’s harsh landscape made me never take nature for granted. This eventually guided me toward a career in engineering where I could improve human health and other biosystems.</p>
+                        <img src="{{url_for('static', filename='tucson.webp')}}" class="tucson" alt="Tucson, AZ">
+                    </div>
+                    
                 <h2>University / Internships</h2>
-                <p>During my university years, I focused on bioengineering and data science, honing my skills in computational biology, machine learning, and laboratory research. I worked on research projects involving biochemistry, genetics, evolutionary biology, systems biology, and even medical devices, gaining hands-on experience with design, experimental, and computational tools. Collaborating with interdisciplinary teams allowed me to develop a strong foundation in scientific research and data analysis, reinforcing my passion for using technology to advance biological sciences. During my Master’s, I went beyond my course requirements by independently writing a grant proposal on protein engineering using deep learning in plant systems. Driven by my passion for applying computational tools to complex biological challenges, I saw this as an opportunity to explore the future of synthetic biology and rational protein design.</p>
-                
+                    <div class="content">
+                        <p>In my university years, I focused on bioengineering and data science, honing my skills in computational biology, machine learning, and laboratory research. I worked on research projects involving biochemistry, genetics, evolutionary biology, systems biology, and even medical devices, gaining hands-on experience with design, experimental, and computational tools. Collaborating with interdisciplinary teams allowed me to develop a strong foundation in scientific research and data analysis, reinforcing my passion for using technology to advance biological sciences.</p>
+                        <img src="{{url_for('static', filename='UofA.png')}}" class="school-logo" alt="University of Arizona">
+                    </div>
+                    
+                    <div class="content">
+                        <p>During my Master’s, I enthusiastically went beyond my course requirements to independently write a grant proposal on rational protein engineering on key metabolic pathways in plant systems. Driven by my passion for applying computational tools to complex biological challenges, I saw this as an opportunity to explore the cutting edge of synthetic biology and rational protein design.</p>
+                        <img src="{{url_for('static', filename='UCSD.jpg')}}" class="school-logo" alt="University of California, San Diego">
+                    </div>
+                    
                 <h2>Professional</h2>
-                <p>After university, I transitioned into professional roles that allowed me to apply my expertise in bioengineering and data-driven research. I have worked on projects involving electroporation devices, cell therapy products, designing and implementing a biomedical startup’s data architecture, and data science pipelines for advanced analysis. My experience spans R&D, engineering, and consulting on data-driven strategies in biotechnology. I thrive in environments that challenge me to innovate, solve complex problems, and contribute to meaningful advancements in science and technology.</p>
+                <div class="content">
+                    <p>After university, I transitioned into professional roles that combined my expertise in bioengineering with data-driven research. I’ve contributed to projects ranging from electroporation devices and cell therapy products to designing a biomedical startup’s data architecture and developing data science pipelines for advanced modeling. My experience spans R&D, engineering, and strategic data applications in biotechnology. I thrive in environments that push me to innovate, tackle complex challenges, and drive meaningful advancements in science and technology. Ultimately, my goal is to leave the world a little better than I found it.</p>
+                </div>
             </div>
         </main>
     </div>

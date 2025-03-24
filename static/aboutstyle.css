@@ -44,29 +44,52 @@
         background-color: white;
         flex-grow: 1; /* Ensures content takes up available space */
         display: flex;
-        justify-content: flex-start; /* Aligns content to left of screen of page */
-        align-items: flex-start; /* Aligns content to top of page */
+        justify-content: space-between; /* Aligns content to split between the screen's width */
+        align-items: center; /* Aligns content to top of page */
         text-align: left;
-        padding: 40px;}
+        padding: 20px;}
 
     .content h1 {
-        font-size: 3em; /* Makes the text larger */
-        margin-bottom: 60px; /* Adds space below the heading */}
+        font-size: 3vw; /* Makes the text larger */
+        margin-bottom: 60px; /* Adds space below the heading */
+        flex-grow: 1; /* Allows text to take up remaining space */}
+
+    .content h2 {
+        font-size: 2vw; /* Makes the text larger */
+        margin-bottom: 60px; /* Adds space below the heading */
+        flex-grow: 1; /* Allows text to take up remaining space */}
 
     .content a {
         text-decoration: none; /* Removes the underline from links only in the content section */}
-        
-    .content a svg {
-        width: 30px;  /* Increase the width of the link images*/
-        height: 30px; /* Increase the height of the link images*/}
 
     .content p {
-        font-size: 1.5em; /* Adjust this value to make the text larger or smaller on descriptors under name*/
+        font-size: 2vw; /* Adjust this value to make the text larger or smaller on descriptors under name*/
         margin-bottom: 40px; /* Adds space below the paragraph */}
     
     .spaced-text {
         line-height: 1.1; /* Adjusts spacing at line breaks in paragraphs */
         margin-bottom: 40px;}
+        
+    .profile-pic {
+        width: 20%;
+        height: auto;
+        margin-left: 20px; /* Adds spacing between text and image */
+        float: right;
+        border-radius: 10px; /*Adds rounded corners */}
+        
+     .tucson {
+        width: 50%;
+        height: auto;
+        margin-left: 20px; /* Adds spacing between text and image */
+        float: right;
+        border-radius: 10px; /*Adds rounded corners */}
+        
+    .school-logo {
+        width: 18%;
+        height: auto;
+        margin-left: 20px; /* Adds spacing between text and image */
+        float: right;
+        border-radius: 10px; /*Adds rounded corners */}
   
     .footer {
         background-color: #f1f1f1; /* Light gray */
